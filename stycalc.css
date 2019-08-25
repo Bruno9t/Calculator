@@ -1,0 +1,61 @@
+body{
+    margin: auto;
+    align-items: center;
+    background: url('math.jpg');
+}
+
+
+section{
+    background:rgba(58, 50, 50, 0.600);
+    border-radius:10px;
+    box-shadow: 5px 5px 5px black;
+    width:420px;
+    margin:145px auto;
+    margin-right: 100px;
+    margin-left: 450px;
+    padding: 20px;
+
+
+
+}
+div#txnum{
+    background:rgba(255,255,255,0.8);
+    width: 395px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+
+
+}
+div.res{
+    background: white;
+    padding: 10px;
+    border-radius:10px;
+
+}
+input{
+    background: rgba(255,255,255,0);
+    width: 50px;
+    height: 50px;
+    font:normal 20pt Arial;
+    text-shadow: 3px 3px 5px black;
+
+}
+input:hover{
+    background:rgb(122, 49, 64);
+    transition-duration: 400ms;
+}
+input#res{
+    width: 410px;
+    background: rgba(0, 0, 0, 0.397);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px black;
+
+}input:hover{
+    background: chocolate;
+    transition-duration: 400ms;
+    box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.253);
+}
+input#s{
+    background: rgba(76, 76, 112, 0.753);
+}

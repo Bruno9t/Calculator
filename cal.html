@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="stycalc.css">
+</head>
+<body>
+    <section class='res'>
+        <form id = 'form'>
+            <input id ='res' onkeypress="return OnlyNum(event)" readonly='true'>
+        </form>
+        <div id = 'txnum'>
+            <input type='button' value='1' id='n' onclick="insert(1)">
+            <input type='button' value='2' id='n' onclick="insert(2)">
+            <input type='button' value='3' id='n' onclick="insert(3)">
+            <input type='button' value='+' id='s' onclick="insert('+')"></br>
+            <input type='button' value='4' id='n' onclick="insert(4)">
+            <input type='button' value='5' id='n' onclick="insert(5)">
+            <input type='button' value='6' id='n' onclick="insert(6)()">
+            <input type='button' value='-' id='s'onclick="insert('-')"></br>
+            <input type='button' value='7' id='n' onclick="insert(7)">
+            <input type='button' value='8' id='n' onclick="insert(8)">
+            <input type='button' value='9' id='n' onclick="insert(9)">
+            <input type='button' value='x' id='s' onclick="insert('*')"></br>
+            <input type='button' value='.' id='s' onclick="insert('.')">
+            <input type='button' value='0' id='n' onclick="insert(0)">
+            <input type='button' value='/' id='s' onclick="insert('/')">
+            <input type='button' value='=' id='s'onclick="operation()"></br>
+            <input type='button' value='c' id='s'onclick="clean()">
+            <input type='button' value='<' id='s'onclick="back()">
+            <input type='button' value='cos' id='cs'onclick="insert('cos(')">
+
+
+
+        </div>
+    </section>
+<script src='calculator.js'></script>
+    
+</body>
+</html>
