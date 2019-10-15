@@ -1,2 +1,3 @@
 # calculadora-js
-calculadora escrita em JS e HTML
+A simple calculator coded in JS and HTML
+
