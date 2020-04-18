@@ -1,7 +1,8 @@
 body{
     margin: auto;
     align-items: center;
-    background: url('math.jpg');
+    background: url('./foto.jpg');
+    background-size: cover;
 }
 
 
