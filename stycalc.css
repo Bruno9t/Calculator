@@ -1,8 +1,11 @@
+
 body{
     margin: auto;
     align-items: center;
     background: url('./foto.jpg');
     background-size: cover;
+    background-position: center;
+    height: 60vh;
 }
 
 
